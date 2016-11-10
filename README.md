@@ -1,3 +1,5 @@
+> 本人目前正在找工作, 具体工作经验以及个人经历请移步到我的[网页版简历](http://freelander.github.io/resume/), 希望能得到大家推荐, 谢谢!
+
 # Android 学习资料收集                                                        
 
  收集整理这份资料灵感来自于 [trip_to_iOS](https://github.com/Aufree/trip-to-iOS), 征得同意引用了该资料的开头描述
@@ -8,7 +10,7 @@
 
  **如果您有任何意见或建议也可以通过[邮件](mailto:huanggaojun13@gmail.com)或[微博](http://weibo.com/gaojunhuang)联系我**
 
->感谢 [@GitHubDaily](http://weibo.com/GitHubDaily) 的大力支持
+>感谢 [@GitHubDaily](http://weibo.com/GitHubDaily) 与 [@Android 开发日常](http://weibo.com/AndroidDevDaily) 的大力支持
 
 ## 目录
 
@@ -25,6 +27,7 @@
 - [开源库收集](#开源库收集)
 - [设计模式](#设计模式)
 - [实践篇](#实践篇)
+- [面试](#面试)
 - [Git 教程](#git-教程)
 - [文档](#文档)
 - [其它资料收集](#其它资料收集)
@@ -51,7 +54,7 @@
 
  环境/工具 | 简述
  -------- | --------
-[Android Studio](http://developer.android.com/sdk/index.html) | 这个开发工具上手需要一定的时间, 自从 Google 推出1.0正式版, 这个工具一直火爆, 目前 github 上面的绝大多数开源项目都是使用 Android Studio 工具, 这就是 Android 开发工具的未来, 所以极力推荐 Android 开发人员使用这个工具, 该工具已更新到 2.0 预览版, 性能逐渐稳定提高, 没有之前那么卡了
+[Android Studio](http://developer.android.com/sdk/index.html) | 这个开发工具上手需要一定的时间, 自从 Google 推出1.0正式版, 这个工具一直火爆, 谷歌也不停更新维护, 性能逐渐稳定提高, 目前 github 上面的绝大多数开源项目都是使用 Android Studio 工具, 这就是开发 Android 必须掌握使用的工具, 如果还在使用 Eclipse 开发 Android 的童鞋们, 赶紧换成 AS 开发吧
 [Genymotion](https://www.genymotion.com/#!/download) | 强大好用高性能的 Android 模拟器, 自带的那个模拟器简直不忍直视, 启动超慢的, 跟这个没法比, 无论你是用 Eclipse 还是 Android Studio 里面都有 Genymotion 插件
 [jadx](https://github.com/skylot/jadx) | 一个 Android 反编译神器, 不同于常见的 [dex2jar](https://github.com/pxb1988/dex2jar), 这个反编译器生成代码的 try/catch 次数更少, View也不再是数字 id 了, 可读性更高
 [android-selector](https://github.com/importre/android-selector-intellij-plugin) | 可以根据指定颜色生成 Selector Drawable 的插件
@@ -174,13 +177,13 @@
 - [awesome_materialdesign](https://github.com/lightSky/Awesome-MaterialDesign)
 - [awesome 系列之终极版](https://github.com/sindresorhus/awesome)
 - [android-dynamic-load-awesome](https://github.com/liaohuqiu/android-dynamic-load-awesome)
+- [awesome-adb](https://github.com/mzlogin/awesome-adb)
 
 ## 动画系列
 - [animate](https://github.com/hitherejoe/animate)
 - [awesome-animation](https://github.com/Animatious/awesome-animation)
 - [Material-Animations](https://github.com/lgvalle/Material-Animations)
 - [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
-
 
 ## Material Design 设计
 
@@ -189,17 +192,17 @@
 - [Material Design Android Library ](https://github.com/navasmdc/MaterialDesignLibrary)(Material Design 开源库, 很多效果可以直接拿来用)
 - [十大Material Design开源项目](http://www.aplesson.com/?p=650)
 
-
 ## 素材
 
 - [常用色彩搭配表](http://tool.c7sky.com/webcolor/)
 - [ColorHunt-色彩搭配](http://www.colorhunt.co/)
 - [在线 Material Design 界面调色板](http://www.materialpalette.com/)
 - [Material Design设计模板与素材](http://www.materialup.com/)
-- [App Icon 图标](https://icons8.com/)
+- [Icons8](https://icons8.com/)
 - [Icon Store](https://iconstore.co/)
 - [Material icons](https://design.google.com/icons/)
 - [Iconfont](http://iconfont.cn/)
+- [awesome-design](https://github.com/gztchan/awesome-design/)
 
 ## 开源库收集
 
@@ -218,6 +221,7 @@
 
 ## 实践篇
 
+- [Android Studio 小技巧合集](http://jaeger.itscoder.com/android/2016/02/14/android-studio-tips.html)
 - [Android 开发最佳实践](https://github.com/futurice/android-best-practices/blob/master/translations/Chinese/README.cn.md)
 - [Android 开发最佳实践 ](http://hukai.me/android-dev-patterns/)(来自[胡凯](http://hukai.me/)总结)
 - [Android 最佳实践之 UI 篇](http://sr1.me/way-to-explore/2015/03/25/best-practice-for-android-ui.html)
@@ -246,7 +250,18 @@
 - [我的 Android 开发实战经验总结](http://www.jianshu.com/p/4f152bc8f4f3)
 - [Android Tips 系列](http://www.wangchenlong.org/2016/02/23/tips/1603/231-android-tips-1/)
 - [如何自学 Android](http://www.jianshu.com/p/28111d29eee4)
+- [你所不知道的Android Studio调试技巧](http://www.jianshu.com/p/011eb88f4e0d)
+
+## 面试
+
+- [80% 以上简历都是不合格的](http://j.codekk.com/blogs/detail/5705bcdf4a38205862ef4770)
+- [推荐两个技术简历模板](http://j.codekk.com/blogs/detail/5705bcdf4a38205862ef476f)
+- [关于程序员求职简历](https://mdluo.github.io/blog/about-resume/)
 - [国内一线互联网公司内部面试题库](https://github.com/JackyAndroid/AndroidInterview-Q-A)
+- [LearningNotes](https://github.com/GeniusVJR/LearningNotes) (非常详细的面试资料, 涉及 Android, Java, 设计模式, 算法等)
+- [Android 面试那些事儿](https://zhuanlan.zhihu.com/p/21565914)
+- [精益技术简历之道——改善技术简历的47条原则](http://lucida.me/blog/lean-technical-resume/)
+- [史上最全 Android 面试资料集合](http://www.jianshu.com/p/d1efe2f31b6d)
 
 ## Git 教程
 
@@ -256,6 +271,7 @@
 - [ProGit 中文版](https://git-scm.com/book/zh/v2)
 - [廖雪峰的 Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [Git 简易指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+- [git-tips](https://github.com/git-tips/tips)(Git 命令集合)
 
 ## 文档
 
@@ -272,7 +288,11 @@
 - [Android 开发收藏夹](https://github.com/ruijun/Android-Dev-Favorites)
 - [TimLiu-Android](https://github.com/Tim9Liu9/TimLiu-Android)(TimLiu 总结的 Android 开源项目及库)
 - [AndroidTips](https://github.com/JohnTsaiAndroid/AndroidTips)
-
+- [Android 开发人员不得不收集的代码](https://github.com/Blankj/AndroidUtilCode)
+- [Android 架构合集](https://github.com/Juude/Awesome-Android-Architecture)
+- [AndroidArchitectureCollection](https://github.com/CameloeAnthony/AndroidArchitectureCollection)
+- [Android 开发中的日常积累](https://github.com/lizhangqu/CoreLink)
+- [2016安卓开发资料大全](http://blog.chengyunfeng.com/?p=1020)
 
 ## 知乎上的讨论
 
@@ -288,6 +308,8 @@
 - [Android有什么好的技术点适合进行技术分享?](https://www.zhihu.com/question/29939631)
 - [Android Studio有什么奇技淫巧?](https://www.zhihu.com/question/27482725)
 - [Android 开发: 开始一个项目前, 做好哪些准备可以事半功倍?](https://www.zhihu.com/question/37433825)
+- [大家有哪些好的 Android 开发习惯?](https://www.zhihu.com/question/27227425)
+- [Android 开发有什么好的架构么?](https://www.zhihu.com/question/21406685)
 
 ## 贡献者
 
